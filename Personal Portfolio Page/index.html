@@ -1,0 +1,128 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/89ec07337a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+        <img src="img2.jpg" alt="">
+        <div class="container">
+          <nav>
+            <div class="logo">
+            </div>
+            <ul>
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header-text">
+            <h1>Hello, <br>I'm <span>Kewal</span><br>Data Scientist</h1>
+            <p>-I analyze data to unveil meaningful insights."</p>
+          </div>
+        </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img3.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="s-title">About Me</h1>
+            <h3>Data<span>Scientist</span></h3>
+            <p>Embarking on a Python journey, I aim to broaden my toolkit. Building on my proficiency in C++, I'm now equipped to seamlessly implement data structures, algorithms, and problem-solving strategies in this versatile and dynamic language.</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="experience">
+                <ul>
+                  <li><span>2023 - current</span><br>Now i have started the journey of Data Science. So now i have 1 month internship certificate of Data Science. </li>
+                  <li><span>2022</span><br>80+ problem-solving in @geeksforgeeks</li>
+                  <li><span>2021</span><br>Flutter and Mobile Apllication Project for GDSC Task</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><br>Bachelor Of Engineering In Computer Science And Engineering<br>VIT-RTU</li>
+                  <li><span>2018 - 2020</span><br>Science with Maths<br><S class="S.S.Jain.Subodh School"></S><br>Completed with 76%</li>
+                  
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="container">
+        <h1 class="s-title">My Skills</h1>
+        <div class="skills-list">
+          <div>
+            
+            <h2>DSA in C++</h2>
+            
+              <br>l've honed my skills in C++ through mastering sorting, greedy algorithms, linked lists, trees, and more. Ready to tackle complex challenges and create efficient solutions with confidence ans precision.
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Python</h2>
+            <p>Embarking on a Python journey, I aim to broaden my toolkit. Building on my proficiency in C++, I'm now equipped to seamlessly implement data structures, algorithms, and problem-solving strategies in this versatile and dynamic language.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Mobile App Design</h2>
+            <p>Programming languages,
+              <br>Software development knowledge,
+              <br>Back-end computing,
+              <br>Cross-platform concepts,
+              <br>Cybersecurity skills,
+              <br>Agile development,
+              <br>Internet of Things (IoT) skills</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> kewalparekh842003@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> Rajasthan,India,302017</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/kewal-parekh-bb4444246"><i class="fa-brands fa-linkedin"></i> </a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="https://instagram.com/itz.karan72?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="KewalParekh_InternshalaResume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="7" placeholder="Your Message"></textarea> 
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="design">
+        <p>Made with <i class="fa-solid fa-heart"></i> By Kewal Parekh</p>
+      </div>
+    </div> 
+    <script src="script.js"></script>
+  </body>
+  </html>
